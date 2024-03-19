@@ -6,7 +6,7 @@ const Footer = ({footerText, buttonColor, buttonText, footerIcon, footerTextII})
             <footer className="footer mt-5 mb-5 py-3 bg-light footerBox">
                 <div className="container">
                     <p className="text-muted">{footerText}</p>
-                    <Button variant='info'>{buttonText}</Button>
+                    <Button className='buttonStyle' variant='info'>{buttonText}</Button>
                     {/* <img src={footerIcon} alt="" /> */}
                 </div>
             </footer>
