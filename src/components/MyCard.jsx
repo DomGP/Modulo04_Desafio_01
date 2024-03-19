@@ -1,4 +1,3 @@
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Tags from './Tags';
 
@@ -6,7 +5,7 @@ import Tags from './Tags';
 const MyCard = ({cardImg, cardTitle, cardText, badgeColor, badgeText}) => {
     return (
         <>
-            <Card style={{ width: '18rem' }}>
+            <Card className='cardStyle' style={{ width: '20rem' }}>
                 <Card.Img variant="top" src={cardImg} />
                     <Card.Body>
                         <Card.Title>{cardTitle}</Card.Title>

@@ -1,12 +1,10 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './components/Header'
-
-//CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/Header'
 import MyCard from './components/MyCard';
 import Footer from './components/Footer';
-import Tags from './components/Tags';
+import NavBar from './components/NavBar';
 
 
 //ICONS
@@ -17,6 +15,11 @@ function App() {
 
   return (
     <>
+      <NavBar
+        navBarTitle = 'Patas Felices'
+        navBarHome = 'Inicio'
+        navBarLink = 'Adopta'
+      />
       <Header
         title = 'Adopta un Perrito'
       />
@@ -81,8 +84,11 @@ function App() {
         
       </div>
       <Footer 
-        footerText = 'Explora nuestra galería de adopción de perros para encontrar a tu compañero perfecto. Tenemos una variedad de perros con diferentes personalidades y tamaños, todos en busca de un hogar amoroso. Cada imagen captura su esencia única. Adopta un perro y bríndale una segunda oportunidad. Encuentra a tu compañero para siempre'
+        footerText = 'Explora nuestra galería de adopción de perros para encontrar a tu compañero perfecto. Tenemos una variedad de perros con diferentes personalidades y tamaños, todos en busca de un hogar amoroso. Cada imagen captura su esencia única. Adopta un perro y bríndale una segunda oportunidad. Encuentra a tu compañero para siempre.'
+        buttonColor = 'outline-info'
+        buttonText = 'Adopta un perrito aquí'
         /* footerIcon = '../public/assets/imgs/bone-solid.svg' */
+        footerTextII = '© 2024 Patas Felices. Todos los derechos reservados.'
       />
     </>
   )
