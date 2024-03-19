@@ -85,10 +85,10 @@ function App() {
       </div>
       <Footer 
         footerText = 'Explora nuestra galería de adopción de perros para encontrar a tu compañero perfecto. Tenemos una variedad de perros con diferentes personalidades y tamaños, todos en busca de un hogar amoroso. Cada imagen captura su esencia única. Adopta un perro y bríndale una segunda oportunidad. Encuentra a tu compañero para siempre.'
-        buttonColor = 'outline-info'
+        buttonColor = 'primary'
         buttonText = 'Adopta un perrito aquí'
         /* footerIcon = '../public/assets/imgs/bone-solid.svg' */
-        footerTextII = '© 2024 Patas Felices. Todos los derechos reservados.'
+        footerTextDos = '© 2024 Patas Felices. Todos los derechos reservados.'
       />
     </>
   )

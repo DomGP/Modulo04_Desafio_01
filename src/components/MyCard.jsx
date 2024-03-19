@@ -6,7 +6,7 @@ const MyCard = ({cardImg, cardTitle, cardText, badgeColor, badgeText}) => {
     return (
         <>
             <Card className='cardStyle' style={{ width: '20rem' }}>
-                <Card.Img variant="top" src={cardImg} />
+                <Card.Img className='imgStyle' variant="top" src={cardImg} />
                     <Card.Body>
                         <Card.Title>{cardTitle}</Card.Title>
                         <Card.Text>{cardText}</Card.Text>
