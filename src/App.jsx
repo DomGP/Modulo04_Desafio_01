@@ -21,7 +21,7 @@ function App() {
         navBarLink = 'Adopta'
       />
       <Header
-        title = 'ADOPTA UN PERRITO'
+        title = 'ADOPTA UN PERRITO BUBCKY'
       />
       <div className='flex'>
         <MyCard 
