@@ -5,7 +5,7 @@
 }
 body{
   font-family: 'Trebuchet MS', sans-serif;
-  background-image: url('./assets/imgs/fondo.jpeg');
+  background-image: url('../assets/imgs/fondo.jpeg');
 }
 
 .h1Style{
